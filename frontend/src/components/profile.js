@@ -4,7 +4,7 @@ export default function Profile(props){
     const cart=[
           {
             title:"DSA-Data Structures and Algorithms",
-            image:"assets/dsa.jpg",
+            image:"https://satyanarayanaakula26.github.io/edualtech_frontend/assets/dsa.jpg",
             description:"This course provides you with complete knowledge of data structures from scratch",
             para:"In today’s fast-paced tech industry, Data Structures and Algorithms (DSA) are the foundation of efficient software development.Whether you're aiming to crack coding interviews at top tech companies like Google, Amazon, or Microsoft—or simply want to become a better problem-solver—this course is an essential step in your tech career.",
             use:"💼 In-demand skill: DSA is a must-know for roles in software development, data science, AI, and machine learning.\n🧩 Crack coding interviews: 95% of technical interviews test your understanding of algorithms and data structures.\n📈 Boost performance: Efficient code saves time, memory, and computing resources—critical in any real-world application.\n🏆 Stand out: Top performers in coding platforms (LeetCode, HackerRank, Codeforces) all excel at DSA.",
@@ -13,13 +13,13 @@ export default function Profile(props){
     ];
     const ongoing=[
         {title:"DSA-Data Structures and Algorithms",
-            image:"assets/dsa.jpg",
+            image:"https://satyanarayanaakula26.github.io/edualtech_frontend/assets/dsa.jpg",
             description:"This course provides you with complete knowledge of data structures from scratch",
         }
         ];
     const completed=[
         {title:"DSA-Data Structures and Algorithms",
-            image:"assets/dsa.jpg",
+            image:"https://satyanarayanaakula26.github.io/edualtech_frontend/assets/dsa.jpg",
             description:"This course provides you with complete knowledge of data structures from scratch",
         }
     ];
@@ -77,7 +77,7 @@ export default function Profile(props){
                             return(
                                <div className="ongoing-course">
                                 <ul>
-                                    <li><a>{item.title}</a></li>
+                                    <li><a href='/home'>{item.title}</a></li>
                                 </ul>
                                </div>
                             )
@@ -90,7 +90,7 @@ export default function Profile(props){
                             return(
                                <div className="ongoing-course">
                                 <ul>
-                                    <li><a>{item.title}</a></li>
+                                    <li><a href='/home'>{item.title}</a></li>
                                 </ul>
                                </div>
                             )

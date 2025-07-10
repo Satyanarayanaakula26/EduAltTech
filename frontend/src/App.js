@@ -1,7 +1,7 @@
 
 import Dropdown from 'react-bootstrap/Dropdown';
 import{
-  BrowserRouter as Router ,Routes,Route,Link
+  HashRouter as Router ,Routes,Route,Link
 } from 'react-router-dom'
 import './App.css';
 import './components/topcourses.css'
@@ -41,7 +41,10 @@ function App() {
     <Route path='/home' element={<Home/>}/>
     <Route path='/courses' element={<Courses/>}/>
     <Route path='/signin'element={<Signin/>}/>
+    <Route path='/signup' element={<Signup/>}/>
+    <Route path='/contact' element={<Contact/>}/>
     <Route path='/Edcourses'element={<Edcourses/>}/>
+    <Route path='/cart' element={<Cart/>}/>
     <Route path='/Nonedcourses' element={<Nonedcourses/>}/>
     <Route path='/course_display'element={<CourseDisplay/>}/>
    </Routes>
